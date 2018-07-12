@@ -11,7 +11,7 @@ local scene = composer.newScene()
 -- -------------------------------------------------------------------------------
 
 local options;
-local gotLvl;
+local gotLvl; --gets level they want to be at
 local var = {};
 local loadingLevel;
 
