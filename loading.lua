@@ -19,7 +19,7 @@ local loadingLevel;
 function scene:create( event )     -- Example: add display objects to "sceneGroup", add touch listeners, etc.
     local sceneGroup = self.view
 
-    rect = display.newRect( halfW, halfH, 330, 201);
+    rect = display.newRect( halfW, halfH, 330, 330);
     rect:setFillColor( 0.72, 0.9, 0.16, 0.78 )
     sceneGroup:insert( rect );
     rect.anchorX = 0.5
